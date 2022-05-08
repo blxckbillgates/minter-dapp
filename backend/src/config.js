@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "The Greenwood District Society";
-const description = "The Greenwood District Society is a collection inspired by the original Black Wall Street of 11,000 unique Greenwood Townspeople NFTs— unique digital collectibles living on the Polygon blockchain. Your Greenwood Townsperson doubles as your citizenship to Greenwood District Society, and grants access to members-only benefits, the first of which is access to our 5 pillars of cool perks and incentive. Future areas and perks can be unlocked by the community through roadmap activation. Visit www.greenwoodistrictsociety.com for more details. ";
+const description = "The Greenwood District Society is a collection inspired by the original Black Wall Street of 11,000 unique Greenwood Townspeople NFTs— unique digital collectibles living on the ETH blockchain. Your Greenwood Townsperson doubles as your citizenship to Greenwood District Society, and grants access to members-only benefits, the first of which is access to our 5 pillars of cool perks and incentives. Future areas and perks can be unlocked by the community through roadmap activation. Visit www.greenwoodistrictsociety.com for more details. ";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
@@ -63,7 +63,7 @@ const extraMetadata = {
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 2; // Your API key rate limit
-const CHAIN = 'rinkeby'; // only rinkeby or polygon
+const CHAIN = 'polygon'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'The Greenwood District Society';
@@ -72,22 +72,22 @@ const METADATA_UPDATABLE = true; // set to false if you don't want to allow meta
 const OWNER_ADDRESS = '0x212C06282041047a6398998fa8B8f24259541099';
 const TREASURY_ADDRESS = '0x212C06282041047a6398998fa8B8f24259541099';
 const MAX_SUPPLY = 11000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = .001; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MINT_PRICE = 300; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PUBLIC_MINT_START_DATE = "2022-05-09T16:00:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = "2022-05-06T16:00:00+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x212C06282041047a6398998fa8B8f24259541099"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = ["0xf34cef3b3ba00F086Eb4D3804F41aAf1c55E8f20","0x5d887efa7428301c528220aA19eA856bA8ccAe49","0xE64F39E75B2d863717b6852C962375427A8D6d7b"]; // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "0x1562FCAad350593B2b5fD38A53b2e061Eaabdb3e"; // If you want to manually include it
+let CONTRACT_ADDRESS = []; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = true; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
