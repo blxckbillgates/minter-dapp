@@ -3,7 +3,7 @@ const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Greenwood District NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The CodeCats NFT Project is a decentralized, open-source project that aims to demonstrate how to develope and launch your own NFT Collection. Follow step by step on the <a href="https://youtube.com/codestackr"  target="_blank" rel="noopener noreferrer">codeSTACKr</a> YouTube channel.';
+const welcome_p = 'const description = The Greenwood District Society is a collection inspired by the original Black Wall Street of 11,000 unique Greenwood Townspeople NFTs— unique digital collectibles living on the ETH blockchain. Your Greenwood Townsperson doubles as your citizenship to Greenwood District Society, and grants access to members-only benefits, the first of which is access to our 5 pillars of cool perks and incentives. Future areas and perks can be unlocked by the community through roadmap activation. Visit www.greenwoodistrictsociety.com for more details';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
