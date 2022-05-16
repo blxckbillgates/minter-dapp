@@ -3,7 +3,7 @@ const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to Greenwood District Society!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'cThe Greenwood District Society is a collection inspired by the original Black Wall Street of 11,000 unique Greenwood Townspeople NFTs— unique digital collectibles living on the ETH blockchain. Your Greenwood Townsperson doubles as your citizenship to Greenwood District Society, and grants access to members-only benefits, the first of which is access to our 5 pillars of cool perks and incentives. Future areas and perks can be unlocked by the community through roadmap activation. Visit www.greenwoodistrictsociety.com for more details';
+const welcome_p = 'Greenwood District Society is a collection of 11,000 Greenwood District Townspeople NFTs lviing on the polygon blockchain. Thru digiital art the vision is to recreate "The Black Wall Street" globally.Visit www.greenwoodistrictsociety.com for more details';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
